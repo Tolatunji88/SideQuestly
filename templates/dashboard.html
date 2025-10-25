@@ -6,7 +6,7 @@
 <style>
     /* Use theme-aware variables for contrast and dark-mode compatibility */
     .welcome-card h2 {
-        color: var(--welcome-text);
+        color: var(--welcome-text); /* This will be white in dark mode */
         text-shadow: 0 2px 6px rgba(0,0,0,0.15);
     }
     .welcome-card .username-highlight {
@@ -161,3 +161,5 @@
     </div>
 </div>
 {% endblock %}
+
+<!-- we attempted to change the text coloring -->
